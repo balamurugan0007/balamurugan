@@ -11,7 +11,7 @@ function App() {
          <Navbar/>
          <Banner/>
          <Services/>
-         <Portfolio/>
+         <Portfolio />
          <Footer/>
     </div>
   );

@@ -4,7 +4,7 @@ import {BiLogoLinkedin,BiLogoBehance,BiLogoGithub,BiLogoYoutube} from 'react-ico
 
 const Footer = () => {
   return (
-    <div>
+    <div className='lg:py-10 py-5 mt-10'>
          
 <footer className="relative bg-blueGray-200 pt-8 pb-6 bg-slate-100" id='Contact'>
     <h2 className='text-xl lg:text-2xl font-lora font-bold text-purple-700 text-center lg:mb-5 mt-5 lg:mt-1'>Contact Details</h2>

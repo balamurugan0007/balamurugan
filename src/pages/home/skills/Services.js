@@ -6,7 +6,7 @@ import {BiLogoYoutube} from "react-icons/bi"
 
 const Services = () => {
   return (
-    <div className='w-full bg-slate-700 lg:py-20 py-5 px-5  lg:px-20' id='Services'>
+    <div className='w-full bg-slate-700 lg:py-20 py-5 px-5  lg:px-20 ' id='Services'>
         <h2 className='text-2xl text-yellow-400 text-center font-lora mb-10  font-bold'>Services</h2>
          <p className='text-5xl  font-poppins font-bold text-slate-100 mt-2 text-center'>What I am Great At</p>
 

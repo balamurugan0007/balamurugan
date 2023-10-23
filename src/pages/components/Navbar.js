@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 const Navbar = () => {
+
+  const [open ,setopen]=useState(null)
   return (
     <div className='w-full bg-slate-800'>
 
@@ -25,7 +27,23 @@ const Navbar = () => {
                   
 
                   </div>
+                
              </div>
+
+             <div className='flex lg:hidden py-4'>
+                  <AnchorLink href='#Home'>
+                      <h4 className='text-md font-poppins ml-4 font-md text-slate-300'>Home</h4>
+                    </AnchorLink>
+                    <AnchorLink href='#Services'>
+                      <h4 className='text-md font-poppins ml-4 font-md text-slate-300'>Services</h4>
+                    </AnchorLink>
+                    <AnchorLink href='#Projects'>
+                      <h4 className='text-md font-poppins ml-4 font-md text-slate-300'>Projects</h4>
+                    </AnchorLink>
+                    <AnchorLink href='#Contact'>
+                      <h4 className='text-md font-poppins ml-4 font-md text-slate-300'>Contact</h4>
+                    </AnchorLink>
+                  </div>
         </div>
       
     </div>

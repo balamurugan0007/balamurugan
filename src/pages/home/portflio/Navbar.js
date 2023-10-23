@@ -12,9 +12,9 @@ const Navbar = () => {
     setdata(correct_value)
   },[value])
   return (
-    <div className='w-full  mt-12'>
+    <div className='w-full  mt-12 mb-10'>
        <div className='lg:px-40'>
-       <div className='navbar-list lg:flex flex-wrap justify-between lg:px-40'>
+       <div className='navbar-list lg:flex hidden justify-between lg:px-40'>
            <div className='w-28 overflow-hidden'>
                 <h3 className='text-slate-300 text-md font-poppins font-bold hover:border-b-2  border-yellow-500 border-w-10 text-center cursor-pointer m-5 sm:text-center' onClick={()=>setvalue("All")}>
                         All
@@ -47,8 +47,40 @@ const Navbar = () => {
         </div>
        </div>
 
+       <div className='navbar-list lg:hidden flex flex-wrap justify-between lg:px-40'>
+           <div className='w-28 overflow-hidden'>
+                <h3 className='text-slate-300 text-md font-poppins font-bold hover:border-2 rounded-md  border-yellow-500 border-w-10 text-center cursor-pointer m-5 sm:text-center' onClick={()=>setvalue("All")}>
+                        All
+                    </h3>
+           </div>
+
+           <div className='w-28 overflow-hidden'>
+                <h3 className='text-slate-300 text-md font-poppins font-bold hover:border-2 rounded-md border-yellow-500 text-center cursor-pointer m-5 sm:text-center ' onClick={()=>setvalue("UiUx")}>
+                        Ui/Ux
+                    </h3>
+           </div>
+
+           <div className='w-28 overflow-hidden'>
+                <h3 className='text-slate-300 text-md font-poppins font-bold hover:border-2 rounded-md border-yellow-500 text-center cursor-pointer m-5 sm:text-center' onClick={()=>setvalue("Frontend")}>
+                        Frontend
+                    </h3>
+           </div>
+
+           <div className='w-28 overflow-hidden'>
+                <h3 className='text-slate-300 text-md font-poppins font-bold hover:border-2 rounded-md  border-yellow-500 text-center cursor-pointer m-5 sm:text-center' onClick={()=>setvalue("Fullstack")}>
+                        Fullstack
+                    </h3>
+           </div>
+
+           <div className='w-32 overflow-hidden'>
+                <h3 className='text-slate-300 text-md font-poppins font-bold hover:border-2 rounded-md  border-yellow-500 text-center cursor-pointer m-5 sm:text-center' onClick={()=>setvalue("Apps")}>
+                        Andriod & IoS
+                    </h3>
+           </div>
+        </div>
+
         <section className='w-full  lg:py-16'>
-                <div className='w-full  lg:flex '>
+                <div className='w-full  lg:flex'>
                     {
                      data && data.map((res)=>(
                      <div >
