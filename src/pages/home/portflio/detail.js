@@ -2,7 +2,7 @@
 import gallaxy from './assets/3.png'
 import ott from './assets/1.jpeg'
 import messho from './assets/4.png'
-import food from './assets/2.jpg'
+import food from './assets/2.png'
 import stream from "./assets/5.png"
 import playlearn from "./assets/play learn.jpeg"
 import doctor from './assets/doctor.jpeg'
@@ -126,8 +126,8 @@ export default [
     },
     {
         "id":8,
-        "name":"Food corner",
-        "visit":"https://github.com/balamurugan0007/food-ordering-website",
+        "name":"3D Animated food Website ",
+        "visit":"https://animated-food-website-azure.vercel.app/",
         "stacks":"React js",
         "pic":food,
         "desc":"It is an Food ordering Website",
