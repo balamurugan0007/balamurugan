@@ -1,20 +1,22 @@
 import Banner from "./pages/components/Banner";
-import Navbar from "./pages/components/Navbar";
-import Footer from "./pages/home/Footer";
-import Freelance from "./pages/home/Freelance";
-import Portfolio from "./pages/home/portflio/Portfolio";
+
+import { About } from "./pages/home/About";
+import { Project } from "./pages/home/Project";
 import Services from "./pages/home/skills/Services";
+import Footer from './pages/home/Footer'
+import { Navbar } from "./pages/components/Navbar";
 
 
 function App() {
   return (
-    <div className="App">
-         <Navbar/>
+    <div className="App bg-stone-950">
+        <Navbar/>
          <Banner/>
          <Services/>
-         <Portfolio />
-         <Freelance/>
+         <About/>
+         <Project/>
          <Footer/>
+         
     </div>
   );
 }

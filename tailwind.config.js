@@ -11,8 +11,9 @@ module.exports = {
       "roboto":['Roboto'],
       "poppins":['Poppins'],
       "cokie":['Cookie'],
-      "open":["Open+Sans"],
-      "lora":["Lora"]
+      "open":["Open Sans"],
+      "lora":["Lora"],
+      'space': ['"Space Grotesk"', 'sans-serif'],
     }
   },
   plugins: [],
