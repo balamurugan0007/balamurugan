@@ -16,7 +16,10 @@ export const About = () => {
      <div className='w-full h-full flex  justify-center lg:py-20 py-10'>
         <div className='lg:w-5/6 px-6 lg:px-0'>
             <div className='lg:flex  '>
-                <div className='lg:w-1/2'>
+                <div className='lg:w-1/2 mt-4 '>
+                    <p className='text-lg  text-green-600 font-bold font-inter uppercase '>
+                        balamurugan k
+                    </p>
                     <h3 className=' font-open font-bold text-3xl text-white mt-5'>
                         Fullstack  Developer
                     </h3>
