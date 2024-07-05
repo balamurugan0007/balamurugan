@@ -3,7 +3,7 @@ import {LuPenTool} from 'react-icons/lu'
 
 import {BsGlobe,BsAndroid2} from "react-icons/bs"
 import {BiLogoYoutube} from "react-icons/bi"
-
+import { RiFlutterFill } from "react-icons/ri";
 import { FaBootstrap, FaFigma, FaJsSquare, FaLaravel, FaNodeJs, FaPython,FaReact } from "react-icons/fa";
 import { SiDjango, SiFramer, SiMui, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -21,11 +21,10 @@ export const About = () => {
                         balamurugan k
                     </p>
                     <h3 className=' font-open font-bold text-3xl text-white mt-5'>
-                        Fullstack  Developer
+                        Application (React Native,Flutter ) & Fullstack  Developer
                     </h3>
                     <p className='text-sm font-normal font-poppins text-slate-300 mt-3 leading-6'>
-                    As a developer, my ultimate goal is to create innovative, efficient, and user-friendly mobile and web applications that meet the specific needs of clients and provide a delightful experience for end-users. I stay updated with the latest trends and advancements in both mobile app and website development industries to continually enhance my skills and deliver cutting-edge solutions.
-                    </p>
+                    As a developer, my goal is to create innovative, efficient, and user-friendly mobile and web apps that meet client needs and delight users. I stay updated with the latest trends to enhance my skills. I have expertise in cross-platform mobile development using React Native and Flutter, allowing me to build native iOS and Android apps from a single codebase. I also create responsive, accessible websites using the latest web technologies. My versatility and adaptability enable me to deliver robust, feature-rich solutions across platforms, leveraging cutting-edge tools to meet project requirements efficiently and cost-effectively. </p>
                 </div>
                 <div className='lg:w-1/2 flex justify-center mt-6 lg:mt-0'>
                         <div className='projects lg:flex '>
@@ -91,8 +90,8 @@ export const About = () => {
                                             <div className='p-5 mt-5  flex lg:flex-col justify-center items-center bg-stone-800 hover:bg-blue-600 lg:w-40 lg:h-40 w-48 h-44 rounded-xl'>
 
                                                 <div className=''>
-                                                    <FaFigma className='w-12 h-12 text-rose-600 text-center'/>
-                                                    <p className='text-slate-300 font-inter font-medium text-md mt-2 text-center'>15+ projects</p>
+                                                    <RiFlutterFill className='w-12 h-12 text-sky-400 text-center'/>
+                                                    <p className='text-slate-300 font-inter font-medium text-md mt-2 text-center'>3+ projects</p>
 
                                                 </div>
 

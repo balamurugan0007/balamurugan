@@ -7,7 +7,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { BsDatabaseFillLock, BsDatabaseSlash } from "react-icons/bs";
 import { motion } from 'framer-motion';
 import { Donut } from 'react-awesome-shapes/dist/shapes/donut';
-
+import { RiFlutterFill } from "react-icons/ri";
 
 const Banner = () => {
   return (
@@ -53,7 +53,7 @@ const Banner = () => {
                  <div className='  absolute'>
                            <div className='python-icon relative lg:bottom-96 lg:left-20 left-60 bottom-60'>
                                <div className='w-14 h-14 lg:w-20 lg:h-20 rounded-full bg-stone-900 flex justify-center items-center shadow-md'>
-                                  <FaPython className='text-indigo-800 w-4/6 h-4/6'/>
+                                  <RiFlutterFill className='text-sky-400 w-4/6 h-4/6'/>
                                </div>
                            </div>
 
