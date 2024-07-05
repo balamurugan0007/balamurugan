@@ -151,7 +151,7 @@ export const About = () => {
 
                 <div className=''>
                     <SiTailwindcss className='w-12 h-12 text-sky-600 text-center'/>
-                    <p className='text-slate-300 font-inter font-medium text-md mt-2 text-center'>5+ projects</p>
+                    <p className='text-slate-300 font-inter font-medium text-md mt-2 text-center'>8+ projects</p>
 
                 </div>
             
@@ -175,7 +175,7 @@ export const About = () => {
 
                 <div className=''>
                     <SiFramer className='w-12 h-12 text-black text-center'/>
-                    <p className='text-slate-300 font-inter font-medium text-md mt-2 text-center'>1+ projects</p>
+                    <p className='text-slate-300 font-inter font-medium text-md mt-2 text-center'>4+ projects</p>
 
                 </div>
             
