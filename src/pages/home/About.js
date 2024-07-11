@@ -124,7 +124,7 @@ export const About = () => {
 
                 <div className='lg:w-1/2 order-2'>
                     <h3 className=' font-open font-bold text-3xl lg:text-4xl text-white mt-5'>
-                        Frontend ( frameworks & Library )
+                        Frontend UI ( frameworks & Library )
                     </h3>
                     <p className='text-sm font-normal font-poppins text-slate-300 mt-3 leading-6'>
                     I am proficient in using Bootstrap, Tailwind CSS, Material-UI (MUI), and Framer Motion for animations. Having completed numerous projects, I possess strong skills in front-end development, ensuring that applications are not only functional but also engaging and user-friendly.

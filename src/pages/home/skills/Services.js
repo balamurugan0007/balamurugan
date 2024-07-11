@@ -42,7 +42,7 @@ const Services = () => {
                  <BsGlobe className='w-20 h-20 text-slate-100 text-center'/>
                
                  <h4 className='text-slate-100 font-poppins font-bold text-xl text-center mt-5'>Fullstack Developer </h4>
-                 <p className='text-slate-300 font-inter font-medium text-md mt-2 text-center'>11+ projects</p>
+                 <p className='text-slate-300 font-inter font-medium text-md mt-2 text-center'>8+ projects</p>
                </div>
           </div>
 
@@ -52,7 +52,7 @@ const Services = () => {
                  <BsAndroid2 className='w-20 h-20 text-slate-100 text-center'/>
                
                  <h4 className='text-slate-100 font-poppins font-bold text-xl text-center mt-5'>Andriod & IOS </h4>
-                 <p className='text-slate-300 font-inter font-medium text-md mt-2 text-center'>3+ projects</p>
+                 <p className='text-slate-300 font-inter font-medium text-md mt-2 text-center'>7+ projects</p>
                </div>
           </div>
 

@@ -92,7 +92,7 @@ const Banner = () => {
                 <div className='icons lg:mt-5 mt-6 flex lg:block justify-center '>
                      <div className='flex'>
                          <div className='w-10 h-10  object-contain border-2 border-slate-300 rounded-full p-2 hover:bg-blue-700 hover:border-0 ml-3'>
-                            <a target='_blank' href='https://www.linkedin.com/in/bala-murugan-20794b252/' >
+                            <a target='_blank' href='https://www.linkedin.com/in/balamurugan-developer/' >
                                 <BiLogoLinkedin className='text-slate-200 w-full h-full'/>
                             </a>
                          </div>

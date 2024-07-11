@@ -62,7 +62,7 @@ const Footer = () => {
                 <a className="text-blueGray-600 hover:text-blueGray-800 font-inter font-semibold block pb-2 text-sm" target='_blank' href="https://github.com/balamurugan0007">Github</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold font-inter block pb-2 text-sm" target='_blank' href="https://www.linkedin.com/in/bala-murugan-20794b252/">Linkedin</a>
+                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold font-inter block pb-2 text-sm" target='_blank' href="https://www.linkedin.com/in/balamurugan-developer/">Linkedin</a>
               </li>
             </ul>
           </div>
